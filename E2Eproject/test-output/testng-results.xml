@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18156" started-at="2020-02-01T15:30:15Z" finished-at="2020-02-01T15:30:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18156" started-at="2020-02-01T15:30:15Z" finished-at="2020-02-01T15:30:33Z">
+      <class name="E2E.HomePageTestCase">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:E2E.HomePageTestCase@7f560810]" name="initialize" is-config="true" duration-ms="4363" started-at="2020-02-01T10:30:15Z" finished-at="2020-02-01T10:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="homePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:E2E.HomePageTestCase@7f560810]" name="homePageNavigation" duration-ms="9383" started-at="2020-02-01T10:30:19Z" data-provider="getData" finished-at="2020-02-01T10:30:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[akhilavema@yhs.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ksldhajk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method status="PASS" signature="homePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:E2E.HomePageTestCase@7f560810]" name="homePageNavigation" duration-ms="4281" started-at="2020-02-01T10:30:28Z" data-provider="getData" finished-at="2020-02-01T10:30:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mdaan@hmai.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kzjdbqiuwhydiu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2E.HomePageTestCase@7f560810]" name="tearDown" is-config="true" duration-ms="98" started-at="2020-02-01T10:30:33Z" finished-at="2020-02-01T10:30:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2E.HomePageTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

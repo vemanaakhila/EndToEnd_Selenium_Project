@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36460" started-at="2020-02-01T16:53:28Z" finished-at="2020-02-01T16:54:05Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="4" started-at="2020-02-01T16:53:28Z" finished-at="2020-02-01T16:53:28Z">
+    </test> <!-- Test -->
+    <test name="Validating Nav bar" duration-ms="9027" started-at="2020-02-01T16:53:28Z" finished-at="2020-02-01T16:53:37Z">
+      <class name="E2E.ValidateNavbar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:E2E.ValidateNavbar@4da4253]" name="initialize" is-config="true" duration-ms="8846" started-at="2020-02-01T11:53:28Z" finished-at="2020-02-01T11:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="homePageNavigation()[pri:0, instance:E2E.ValidateNavbar@4da4253]" name="homePageNavigation" duration-ms="81" started-at="2020-02-01T11:53:37Z" finished-at="2020-02-01T11:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2E.ValidateNavbar@4da4253]" name="tearDown" is-config="true" duration-ms="91" started-at="2020-02-01T11:53:37Z" finished-at="2020-02-01T11:53:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2E.ValidateNavbar -->
+    </test> <!-- Validating Nav bar -->
+    <test name="Validating Home page" duration-ms="19690" started-at="2020-02-01T16:53:37Z" finished-at="2020-02-01T16:53:57Z">
+      <class name="E2E.HomePageTestCase">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:E2E.HomePageTestCase@34f7cfd9]" name="initialize" is-config="true" duration-ms="3199" started-at="2020-02-01T11:53:37Z" finished-at="2020-02-01T11:53:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="homePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:E2E.HomePageTestCase@34f7cfd9]" name="homePageNavigation" duration-ms="12518" started-at="2020-02-01T11:53:40Z" data-provider="getData" finished-at="2020-02-01T11:53:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[akhilavema@yhs.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ksldhajk]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method status="PASS" signature="homePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:E2E.HomePageTestCase@34f7cfd9]" name="homePageNavigation" duration-ms="3870" started-at="2020-02-01T11:53:53Z" data-provider="getData" finished-at="2020-02-01T11:53:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mdaan@hmai.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kzjdbqiuwhydiu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Allowed User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2E.HomePageTestCase@34f7cfd9]" name="tearDown" is-config="true" duration-ms="100" started-at="2020-02-01T11:53:57Z" finished-at="2020-02-01T11:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2E.HomePageTestCase -->
+    </test> <!-- Validating Home page -->
+    <test name="Validating title present ot not" duration-ms="7707" started-at="2020-02-01T16:53:57Z" finished-at="2020-02-01T16:54:05Z">
+      <class name="E2E.ValidateTitleTestCase">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:E2E.ValidateTitleTestCase@3d1cfad4]" name="initialize" is-config="true" duration-ms="7606" started-at="2020-02-01T11:53:57Z" finished-at="2020-02-01T11:54:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="homePageNavigation()[pri:0, instance:E2E.ValidateTitleTestCase@3d1cfad4]" name="homePageNavigation" duration-ms="33" started-at="2020-02-01T11:54:05Z" finished-at="2020-02-01T11:54:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2E.ValidateTitleTestCase@3d1cfad4]" name="tearDown" is-config="true" duration-ms="68" started-at="2020-02-01T11:54:05Z" finished-at="2020-02-01T11:54:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2E.ValidateTitleTestCase -->
+    </test> <!-- Validating title present ot not -->
+  </suite> <!-- Suite -->
+</testng-results>

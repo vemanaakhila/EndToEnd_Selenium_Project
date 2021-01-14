@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="E2E.Listeners">
+		</listener>
+
+		<listener class-name="Resources.ExtentReporterNG"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="E2E.AppTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="Validating Nav bar">
+		<classes>
+			<class name="E2E.ValidateNavbar" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="Validating Home page">
+		<classes>
+			<class name="E2E.HomePageTestCase" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="Validating title present ot not">
+		<classes>
+			<class name="E2E.ValidateTitleTestCase" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
