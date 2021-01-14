@@ -1,9 +1,0 @@
-MobileTesting\AppiumE2EFW\App.class
-MobileTesting\AppiumE2EFW\eCommerceBase.class
-MobileTesting\AppiumE2EFW\TestData.class
-pageObjects\CheckOutPage.class
-pageObjects\ApiHomePage.class
-resources\Listeners.class
-MobileTesting\AppiumE2EFW\Helper.class
-pageObjects\FormPage.class
-resources\ExtentReporterNG.class
